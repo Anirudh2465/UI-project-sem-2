@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>EPOCH.ai</title>
+    <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="sign_in.css">
+</head>
+<body>
+    <video autoplay muted loop id="bgVideo">
+        <source src="bgv1.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    <div class="login-container">
+        <!--ring div starts here-->
+        <div class="ring">
+            <i style="--clr:#00008B;"></i>
+            <i style="--clr:#ADD8E6;"></i>
+            <i style="--clr:#0000FF;"></i>
+            <div class="login">
+                <h2>Login</h2>
+                <div class="inputBx">
+                    <input type="text" placeholder="Username" id="username">
+                </div>
+                <div class="inputBx">
+                    <input type="password" placeholder="Password" id="password">
+                </div>
+                <div class="inputBx">
+                    <input type="submit" value="Sign in" id="login-button">
+                </div>
+                <div class="links">
+                    <a href="#">Register</a>
+                </div>
+                <p id="error-message"></p>
+            </div>
+        </div>
+        <!--ring div ends here-->
+    </div>
+    <script src="sign_in.js"></script>
+</body>
+</html>

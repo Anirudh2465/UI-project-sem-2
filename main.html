@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPOCH</title>
+    <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div id="loader">
+        <h1>ARTIFICAL</h1>
+        <h1>INTELLIGENCE</h1>
+    </div>
+    <div id="fixed-image">
+
+    </div>
+    <div id="main">
+        <div id="page1" >
+            <nav>
+                <div id="nav-part2">
+                    <h4><a href="register.html">Sign Up</a></h4>
+                    <h4><a href="sign_in.html">Sign In</a></h4>
+                    <h4 id='displayUsername'><a href="#">Guest</a></h4>
+                    <script>
+                        window.addEventListener('message', function(event) {
+                            var data = event.data;
+
+                            console.log('Received data:', data);
+
+                            if (data.loginSuccess) {
+                                document.getElementById('displayUsername').textContent = data.username;
+                            }
+                        });
+                    </script>
+                </div>
+                <h3>Menu</h3>
+            </nav>
+            <div id="center">
+                <div id="left">
+                    <h3>The Official AI club of Amrita Vishwa Vidhyapeetham</h3>
+                </div>
+                <div id="right">
+                    <h1>INNOVATE<br>
+                        INTEGRATE <br>
+                        INSPIRE</h1>
+                </div>
+
+            </div>
+            <div id="hero-shape">
+                <div id="hero-1"></div>
+                <div id="hero-2"></div>
+                <div id="hero-3"></div>
+            </div>
+            <video autoplay loop muted src="./1.mp4"></video>
+        </div>
+        <div id="page2" >
+            <div id="moving-text">
+                <div class="con">
+                    <h1>ML</h1>
+                    <div id="gola"></div>
+                    <h1>DL</h1>
+                    <div id="gola"></div>
+                    <h1>NLP</h1>
+                    <div id="gola"></div>
+                </div>
+                <div class="con">
+                    <h1>ML</h1>
+                    <div id="gola"></div>
+                    <h1>DL</h1>
+                    <div id="gola"></div>
+                    <h1>NLP</h1>
+                    <div id="gola"></div>
+                </div>
+                <div class="con">
+                    <h1>ML</h1>
+                    <div id="gola"></div>
+                    <h1>DL</h1>
+                    <div id="gola"></div>
+                    <h1>NLP</h1>
+                    <div id="gola"></div>
+                </div>
+            </div>
+            <div id="page2-bottom">
+                <h1>We do a lot of projects, quizes and events which are great learning experiences</h1>
+                <div id="bottom-part2">
+                    <video autoplay loop muted src="./2.mp4"></video>
+                    <p>The AI Club is a community of students, professionals, and AI enthusiasts dedicated to exploring the fascinating world of artificial intelligence. Our mission is to foster learning, collaboration, and innovation in AI through various activities, including workshops, projects, and guest speaker events.
+                </div>
+            </div>
+            <div id="gooey">
+
+            </div>
+        </div>
+        <div id="page3">
+            <div id="elem-container">
+                <div id="elem1" class="elem"
+                    data-image="https://images.unsplash.com/photo-1701001308648-7b731a52b8d7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNHx8fGVufDB8fHx8fA%3D%3D">
+                    <div class="overlay" ></div>
+                    <h2><a href="https://github.com/microsoft/AirSim" target="_blank">Simulator for Autonomous Vehicles</a></h2>
+                </div>
+                <div class="elem"
+                    data-image="https://images.unsplash.com/photo-1700975928909-da4a46227a47?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8">
+                    <div class="overlay"></div>
+                    <h2><a href="https://github.com/junyanz/CycleGAN" target="_blank">GAN for image generation</a></h2>
+                </div>
+                <div class="elem"
+                    data-image="https://images.unsplash.com/photo-1701077137611-9be394bf62f0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHx8fA%3D%3D">
+                    <div class="overlay"></div>
+                    <h2><a href="https://github.com/NakulLakhotia/Hate-Speech-Detection-in-Social-Media-using-Python" target="_blank">Hate Speech Detection</a></h2>
+                </div>
+                <div class="elem"
+                    data-image="https://images.unsplash.com/photo-1701014159309-4a8b84faadfe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D">
+                    <div class="overlay"></div>
+                    <h2><a href="https://github.com/Anirudh2465/ECG-Classification" target="_blank">ECG Classification</a></h2>
+                </div>
+                <div class="elem"
+                    data-image="https://images.unsplash.com/photo-1700924546093-f914fd5b8814?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyOHx8fGVufDB8fHx8fA%3D%3D">
+                    <div class="overlay"></div>
+                    <h2><a href="https://github.com/NetManAIOps/OmniAnomaly" target="_blank">Anomaly Detection for Multivariatee Time Series</a></h2>
+                </div>
+            </div>
+        </div>
+        <div id="page4">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Event 1<br><br>Hackathon<br>Date: June 25th 2024<br>Venue: AB3 <br><h4><a href="#">Register</a></h4></div>
+                    <div class="swiper-slide">Event 2<br><br>Introduction to NLP<br>Date: July 01st 2024<br>Venue: AB2<br><h4><a href="#">Register</a></h4></div>
+                    <div class="swiper-slide">Event 3<br><br>Introduction to ML<br>Date: August 25th 2024<br>Venue: AB2 <br><h4><a href="#">Register</a></h4></div>
+                    <div class="swiper-slide">Event 4<br><br>AI Quiz<br>Date: November 19th 2024<br>Venue: AB3 <br><h4><a href="#">Register</a></h4></div>
+                </div>
+            </div>
+        </div>
+        <div id="page5" >
+        </div>
+        <div id="full-scr">
+            <div id="full-div1">
+                
+            </div>
+        </div>
+    </div>
+    <div id="footer" >
+        <div id="footer-div">
+        </div>
+        <h1>EPOCH</h1>
+        <div id="footer-bottom">
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
